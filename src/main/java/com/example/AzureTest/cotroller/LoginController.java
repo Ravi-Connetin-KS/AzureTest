@@ -8,6 +8,6 @@ public class LoginController {
     @RequestMapping("/login")
     String login()
     {
-        return "success";
+        return "success loged in to application";
     }
 }
